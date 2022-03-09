@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pngmulherfit"
+    tools:context=".massaf">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="310dp"
+        android:layout_height="510dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/carter_one"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="SUA META É GANHAR MASSA MUSCULAR"
+                android:textColor="#FF392B"
+                android:textColorHighlight="#FFFFFF"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="1ª Parte: aquecimento"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="alongue seu braço e seu pulso e pernas"
+                android:textColor="#F3F4F4"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="2ª Parte: agachamentos"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="50 agachamentos"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="40 abdominais"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="40 polichinelo"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="3ª Parte: pernas"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="150dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="50 repetições de panturilha Esticar a panturrilha, empurrando o corpo para cima até que o músculo fique completamente contraído. 20 agachamentos e 4 minutos de prancha "
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Chronometer
+        android:id="@+id/cronometro"
+        android:layout_width="96dp"
+        android:layout_height="45dp"
+
+
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="30dp"
+        android:background="#AD000000"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pausar" />
+
+    <Button
+        android:id="@+id/parar"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="37dp"
+        android:background="@drawable/parar"
+        android:onClick="stopChronometer"
+        android:text="zerar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cronometro"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/pausar"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="9dp"
+        android:layout_toStartOf="@+id/parar"
+        android:layout_toLeftOf="@+id/parar"
+        android:background="@drawable/gradient"
+        android:onClick="pauseChronometer"
+        android:text="pausar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/cronometro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="37dp"
+        android:background="@drawable/gradient"
+        android:elevation="4dp"
+        android:onClick="startChronometer"
+        android:text="Iniciar"
+        android:textColor="#FFFFFF"
+        android:translationZ="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toStartOf="@+id/cronometro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

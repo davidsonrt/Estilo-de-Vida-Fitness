@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.style_de_vida_fitness.ui.home.HomeFragment"
+        android:label="Feed de notícias"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_treino"
+        android:name="com.example.style_de_vida_fitness.ui.gallery.GalleryFragment"
+        android:label="Treinos"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_dietas"
+        android:name="com.example.style_de_vida_fitness.ui.slideshow.SlideshowFragment"
+        android:label="Dietas"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_imc"
+        android:name="com.example.style_de_vida_fitness.ui.slideshow.SlideshowFragment"
+        android:label="IMC"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_maps"
+        android:name="com.example.style_de_vida_fitness.ui.slideshow.SlideshowFragment"
+        android:label="Locais para treino"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_corrida"
+        android:name="com.example.style_de_vida_fitness.ui.slideshow.SlideshowFragment"
+        android:label="Contatos de profissionais"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_ajuda"
+        android:name="com.example.style_de_vida_fitness.ui.slideshow.SlideshowFragment"
+        android:label="Ajuda"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>

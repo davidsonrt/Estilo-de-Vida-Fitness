@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pngemagrecer"
+    tools:context=".dietaresistencia">
+
+    <ScrollView
+        android:layout_width="310dp"
+        android:layout_height="510dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/carter_one"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="SUA META É RESISTÊNCIA"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="Café da manhã"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="- Dar preferência para sucos com 2 frutas, desintoxicantes, chás claros e vitaminas com leite de soja. Para adoçar usar mel, agave ou açúcar demerara, orgânico ou mascavo; - Pães integrais, torradas integrais, bolachas integrais com gergelim, ovo mexido ou tapioca ( a tapioca é uma ótima opção para o café da manhã pois não contém farinha branca e nem glúten); - Para passar no pão ou torrada, manteiga sem sal, geléia orgânica (morango, framboesa ou amora), patê de tofu temperado ou hummus ( pasta de grão de bico). "
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="Lanche da manhã"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="- Palitos integrais, bolachinhas integrais, pão sueco integral, mix de castanhas, mix de frutas secas, frutas, barrinha de cereal orgânica, barrinha de granola, mix de sementes (sementes de abóbora, melão, melancia e girassol, ideal para redução de gordura abdominal. Consumir 2 colheres de sopa por dia) e salada de frutas com granola."
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="Almoço"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="- Consumir muita salada antes da refeição principal. Dê preferência para as folhas verdes escuras. Temperar a salada com azeite, sal marinho, limão e gergelim; - Arroz integral e arroz sete grão; batata, mandioca e mandioquinha cozida; macarrão integral (escolha somente 1 tipo de carboidrato); - Feijão azuki, feijão branco ou lentilha; - Carne vermelha orgânica, filé de frango orgânico ou filé de peixe (as carnes orgânicas não possuem hormônios). Consumir carne vermelha somente 2 vezes na semana. - Dê preferência para os peixes de água fria, pois contém mais Omega 3 (Atum, Salmão e Sardinha). As carnes podem ser assadas, cozidas ou grelhadas; - Legumes e verduras cozidos; - Sobremesa sempre frutas cítricas (abacaxi, laranja, mexerica), pois aumentam a absorção do ferro; - Líquidos: consumir sucos naturais ½ hora antes da refeição ou 1 hora depois (½ copo).  Obs: Não consumir cafezinho logo após o almoço, pois ele impede absorção de vitaminas e minerais, esperar para ingerir ½ hora após a refeição. A base da refeição é salada, verdura, legumes e carnes, consumir pouco arroz, feijão, batata, macarrão e todos os outros do grupo do carboidrato. "
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="Lanche da tarde"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="2 fatias de pão de forma integral 60 g (2 colheres de sopa cheias) de queijo cottage 3 fatias finas de abacaxi 1 xícara de café"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="Jantar"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="- Consumir somente salada, verduras, legumes, carnes ou ovo mexido, cozido ou omelete. Dê preferência para ovos caipira, pois eles têm mais vitaminas (o ovo, assim como o salmão, possui bastante Omega 3). "
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

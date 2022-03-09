@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pngemagrecer"
+    tools:context=".dietaganhomassa">
+
+    <ScrollView
+        android:layout_width="310dp"
+        android:layout_height="510dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/carter_one"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="SUA META É GANHAR MASSA MUSCULAR"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="Café da manhã"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="2 fatias de pão de forma integral 2 fatias de queijo minas frescal 1 copo grande 300 ml de leite desnatado com café 2 fatias de mamão com 1 colher de sopa de farelo de aveia"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="Lanche da manhã"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="1 copo de iogurte natural 2 colheres de sobremesa de granola 1 castanha do Pará"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="Almoço"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="4 colheres de sopa de arroz integral 1 concha de feijão 2 filés de 100 g de frango grelhado 1/2 prato de verduras (cruas ou refogadas)"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="Lanche da tarde"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="2 fatias de pão de forma integral 60 g (2 colheres de sopa cheias) de queijo cottage 3 fatias finas de abacaxi 1 xícara de café"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="Jantar"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="Omelete com 3 ovos e queijo branco 2 colheres de sopa de legumes ou verduras (abobrinha, chuchu, brócolis, couve, couve-flor, espinafre, pepino) 3 colheres de sopa de quinoa cozida"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="Ceia"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="1 maçã 1 copo de leite desnatado com cacau"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

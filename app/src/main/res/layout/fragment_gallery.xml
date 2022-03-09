@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <TextView
+        android:id="@+id/idtreino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="Meta:"
+        android:textColor="#00BCD4"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="294dp"
+        android:layout_height="174dp"
+        android:text="Aquecimento manguito no banco 45 2 x 20 sem descanso  1-Supino reto barra 15121086 repetições  2.1-Supino inclinado na máquina 4x15 2.2-Flexão de braço repetições máxima  3-Peck deck 3x drop set 5.10.15.20rep 4.1-desenvolvimento halteres 4x15  4.2-elevação lateral 4x15+1 drop repetições máxima  5.1- Francês 4x15 5.2- tríceps corda 4x15  6- tríceps pulley 3x drop set 5.10.15.20rep"
+        android:textColor="#00BCD4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.296" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="294dp"
+        android:layout_height="174dp"
+        android:text=" Mobilidade do ombro com elástico 2x20  1- pulley articulado 15121086  2.1- puxador frente 4x15 2.2- puxador fechado supina 4x15  3- remada baixa 3x drop set 5.10.15.20rep 4.1-crucifixo invertido 4x15  4.2- encolhimento 4x15+1 drop repetições máxima  5.1- rosca direta barra 4x15 5.2- rosca simultânea 45grau 4x15  6- rosca martelo corda 3x drop set 5.10.15.20rep"
+        android:textColor="#00BCD4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.676" />
+
+    <TextView
+        android:id="@+id/tipo"
+        android:layout_width="197dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="3dp"
+        android:textColor="#00BCD4"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idtreino" />
+</androidx.constraintlayout.widget.ConstraintLayout>

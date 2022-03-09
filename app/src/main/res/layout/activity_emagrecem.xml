@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pngsrfit"
+    tools:context=".emagrecem">
+
+    <Chronometer
+        android:id="@+id/cronometro"
+        android:layout_width="96dp"
+        android:layout_height="45dp"
+
+
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="30dp"
+        android:background="#AD000000"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pausar" />
+
+    <Button
+        android:id="@+id/parar"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="37dp"
+        android:background="@drawable/parar"
+        android:onClick="stopChronometer"
+        android:text="zerar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cronometro"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/pausar"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="9dp"
+        android:layout_toStartOf="@+id/parar"
+        android:layout_toLeftOf="@+id/parar"
+        android:background="@drawable/gradient"
+        android:onClick="pauseChronometer"
+        android:text="pausar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/cronometro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="37dp"
+        android:background="@drawable/gradient"
+        android:elevation="4dp"
+        android:onClick="startChronometer"
+        android:text="Iniciar"
+        android:textColor="#FFFFFF"
+        android:translationZ="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView4"
+        app:layout_constraintEnd_toStartOf="@+id/pausar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="310dp"
+        android:layout_height="510dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/carter_one"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="SUA META É EMAGRECER"
+                android:textColor="#009688"
+                android:textColorHighlight="#FFFFFF"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="Caminhe por um minuto para aquecer. Corra em ritmo leve por três minutos para continuar o aquecimento."
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text=" Repita três vezes:  – 45 segundos de prancha alpinista (Mountain Climber) – 45 segundos de saltos com agachamento – corra em ritmo moderado por 2 minutos e 30 segundos – 45 segundos de afundo alternado ou à frente – 45 segundos de burpees com flexão – corra em ritmo moderado por 2 minutos e 30 segundos  "
+                android:textColor="#F3F4F4"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="150dp"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="1º bloco – 2 séries: Agachamento com Salto (45 segundos) Flexão de Braços (45 segundos) Abdominal Prancha (45 segundos)  2º bloco – 2 séries: Polichinelo (45 segundos) Abdominal Reto Solo (45 segundos) Avanço (Passada) (45 segundos)  3º bloco – 2 séries: Abdominal Infra Solo (45 segundos) Burpee Completo (45 segundos)"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

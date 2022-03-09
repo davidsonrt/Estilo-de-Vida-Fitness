@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pngemagrecer"
+    tools:context=".dietaemagrecer">
+
+    <ScrollView
+        android:layout_width="310dp"
+        android:layout_height="510dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/carter_one"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="SUA META É EMAGRECER"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="Café da manhã"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="1 xícara (chá) de Chá de ervas 2 fatias de Pão integral 1 fatia pequena de Presunto cozido sem capa de gordura 2 fatias pequenas de Queijo tipo minas 1 fatia média de Abacaxi"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="Lanche da manhã"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="1 unidade de maçã verde"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="Almoço"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="Almeirão a vontade 4 unidades médias de Tomate cereja 3 colheres (sopa) de Arroz com lentilhas 2 colheres (sopa) cheias de Vagem cozida 2 colheres (sopa) cheias de Abóbora moranga cozida 2 unidades médias de Frango coxa sem pele cozida"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="Lanche da tarde"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="1 unidade pequena de Água de coco 5 unidades de Biscoito integral"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="Jantar"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#771C1717"
+                android:fontFamily="@font/chelsea_market"
+                android:gravity="center"
+                android:text="Alface lisa a vontade 3 fatias médias de tomate 1 colher (chá) de Azeite de oliva 3 colheres (sopa) cheias de arroz integral cozido 2 colheres (sopa) de Espinafre cozido 1 unidade média de Carne bovina maminha grelhada 1 copo pequeno de Suco de uva light"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

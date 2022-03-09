@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
+
+    <fragment
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        app:defaultNavHost="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navGraph="@navigation/mobile_navigation" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:backgroundTint="#000000"
+        android:paddingTop="1dp"
+        android:paddingBottom="0dp"
+        android:text="Ajuda / Sobre      "
+        android:textAlignment="viewEnd"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:onClick="abrirAjuda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_action_ajuda" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="283dp"
+                android:src="@drawable/pngmascara" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vai Sair de Casa Não Esqueça sua Máscara"
+                android:textAlignment="center"
+                android:textColor="#009688" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text=" Lembre-se que ao sair de casa, sempre leve sua máscara para sua proteção, é importante carregar sempre uma máscara adicional para maior segurança, o Ministério da Saúde também recomenda carregar uma sacola para guardar a máscara usada, caso precise trocar."
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="623dp"
+                android:src="@drawable/pngmulherfitness2" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hidrate-se: a importância de beber água para ter um corpo saudável"
+                android:textAlignment="center"
+                android:textColor="#009688" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="A hidratação é uma atividade valiosa para manter a saúde do corpo. Em época de calor, torna-se ainda mais importante para manter o organismo com energia. Não perca tempo e adote a prática cotidianamente!"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="590dp"
+                android:src="@drawable/pngresistenvia" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alimentação saudável: dicas para você conseguir manter"
+                android:textAlignment="center"
+                android:textColor="#009688" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Durante nosso dia temos diversas responsabilidades, e muitas vezes não sobra tempo para nós mesmos nem mesmo para adquirirmos uma alimentação saudável. Mas é preciso ter atenção, pois é muito importante cuidarmos da nossa saúde, e não precisamos radicalizar para isso. Continue a leitura e confira 9 dicas para você manter uma alimentação saudável!"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="617dp"
+                android:src="@drawable/pngsrfit" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nunca é tarde para ser saudável, mesmo na terceira idade"
+                android:textAlignment="center"
+                android:textColor="#009688" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Estudos científicos comprovam que nunca é tarde para iniciar uma vida saudável. Mesmo para as pessoas com idade avançada existem benefícios claros relacionados aos hábitos saudáveis, como dieta equilibrada, atividade física regular e controle das doenças crônicas que podem trazer mais qualidade de vida quando inseridos na rotina. Entretanto, temos que lembrar que quanto mais cedo o indivíduo tomar essa decisão de inserir bons hábitos no seu dia a dia, maiores serão as chances de prevenir doenças cardiovasculares, oncológicas e neuro-degenerativas."
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="636dp"
+                android:src="@drawable/pngtreinoo" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conheça locais para treinar!!"
+                android:textAlignment="center"
+                android:textColor="#009688" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Com o nosso mapa de locais para treino, você tem acesso aos lugares próximos de sua localização, acesse e faça um ótimo treino ao ar livre."
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="553dp"
+                android:src="@drawable/pngmenfit" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Saiba o seu índice de massa corporal através de nossa calculadora"
+                android:textAlignment="center"
+                android:textColor="#009688" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="É sempre bom manter a forma, por isso desenvolvemos uma calculadora de imc disponivel em nosso app, para você acessar sempre quando precisar."
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

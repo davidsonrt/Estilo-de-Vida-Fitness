@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ajuda">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idajuda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ajuda"
+                android:textAlignment="center"
+                android:textColor="#009688" />
+
+            <ImageView
+                android:id="@+id/idprimeiraft"
+                android:layout_width="250dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/primeira" />
+
+            <TextView
+                android:id="@+id/idtelatx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tela de Login"
+                android:textAlignment="center"
+                android:textColor="#009688" />
+
+            <TextView
+                android:id="@+id/id1explica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="1. neste campo clique e digite o seu e-mail  (caso não tenha login pule para o n°4) "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/fdgdsgers5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="2. neste campo clique digite sua senha "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/id1explica4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text='3. depois de ter feito o procedimento n°1 e 2 aperte no botão "Acessar" (azul)'
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/id1explica3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text='4. caso não tenha e-mail, clique em "Registre-se aqui" para se registrar'
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/fotoidregistro"
+                android:layout_width="250dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/registrar" />
+
+            <TextView
+                android:id="@+id/text34explicando"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tela de Registro"
+                android:textAlignment="center"
+                android:textColor="#009688" />
+
+            <TextView
+                android:id="@+id/txtestudo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text=" Todos os campos desta tela são necessários para se registrar"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txtaprende"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="1. Clique no ícone (com formato de um rosto) e anexe uma foto para ser de seu perfil *importante que seja menor que 1mb"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txtes333"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="2. Clique no campo e digite seu nome"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txtclique"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="3. Clique no campo e digite seu sobrenome"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txtexplic367"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="4. Clique no campo e digite o seu e-mail"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textoexplicw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="5. Clique no campo e digite uma senha"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/text456"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="6. Clique no campo e repita a senha digitada em cima"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/isexcvb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="7. Clique na opção correspondente ao seu sexo"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="8. Escolha uma meta de sua preferência e Clique para marca-lá"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/qwe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="9. Após ter realizado todos os procedimentos a cima clique em registrar"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/erty"
+                android:layout_width="250dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/feed" />
+
+            <TextView
+                android:id="@+id/tyu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tela Inicial (com feed)"
+                android:textAlignment="center"
+                android:textColor="#009688" />
+
+            <TextView
+                android:id="@+id/fgh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="50dp"
+                android:text="1. Para acessar a todas as funções do app clique nas três barras indicada pela seta verde"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/fgfsfsdss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Barra de Menu"
+                android:textAlignment="center"
+                android:textColor="#009688" />
+
+            <TextView
+                android:id="@+id/vvasavdf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="1. Feed (o app inicialmente entra na tela do feed)"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/dvsav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="2. Para alterar a sua meta  que foi escolhida inicialmente na tela de registro. Clique em meta e selecione a opção que desejar"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/dsdv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="3. Clicando em treinos você terá acesso a todos os treinos e a um cronômetro para ajuda a marcar seu tempo"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/rthhr4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="4. Clicando em dietas você terá acesso as suas dietas de acordo com o sua meta"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/gdsb5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="5. Clicando em imc você terá acesso a uma calculadora que irá calcular o seu imc e informa se seu peso está bom"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/gdrgre4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="6. Para acessar treinos você terá que permitir i uso do GPS logo depois clique outra vez em Locais para treino e visualizar os parques gratuitos e praças próximos a você"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/fvdfve4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="7. Clicando em Músicas você entrará no álbum que mostrará as músicas disponíveis escolha uma depois aperte no ícone play"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/adae32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="8. Clicando em contatos de profissionais você terá acesso aos contatos de nutricionista médico e personal trainers"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/dsgerhe3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sobre"
+                android:textAlignment="center"
+                android:textColor="#009688" />
+
+            <TextView
+                android:id="@+id/sfsa4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="App Estilo de Vida Fitness versão: 1.0"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/gbrsdhyr7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desenvolvedores"
+                android:textAlignment="center"
+                android:textColor="#009688" />
+
+            <TextView
+                android:id="@+id/desenvolvedor2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Davidson Ribeiro Torres - RGM:21224102"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/desnecosle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="David Ribeiro Torres - RGM:21223921"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/gregaeg43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Daniel Vespoli Delatim - RGM:21023727"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
